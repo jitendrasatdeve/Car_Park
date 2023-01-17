@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/home_page_bg"
+    >
+
+    <ImageView
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/sign_out_img" />
+
+    <Button
+        android:id="@+id/btn_booking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#f8a3aa"
+        android:text="book slot"
+        android:textColor="#232e6b" />
+
+    <Button
+        android:id="@+id/btn_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_booking"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#232e6b"
+        android:text="add slot"
+        android:textColor="#f8a3aa" />
+
+
+</RelativeLayout>

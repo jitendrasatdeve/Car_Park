@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90843602429",
+    "project_id": "hello-d851e",
+    "storage_bucket": "hello-d851e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90843602429:android:e96cce4a62700cbf4a4d94",
+        "android_client_info": {
+          "package_name": "com.example.android.hello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90843602429-p0bbqnomk435gf4ipmuqvol517j1lj72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxr37smzKKz-w578ufB2SQoqVxOCywpXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90843602429-p0bbqnomk435gf4ipmuqvol517j1lj72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
